@@ -1,0 +1,7 @@
+(library
+ (name windows_version)
+ (public_name windows-version)
+ (synopsis "List Windows 10 versions, LCUs, and their status.")
+ (libraries astring fmt sexplib0)
+ (preprocess
+  (pps ppx_sexp_conv)))
